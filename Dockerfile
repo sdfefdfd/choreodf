@@ -7,12 +7,12 @@ ARG WSPATH=choreo \
     NEZHA_PORT=443 \
     NEZHA_KEY=VEGc0rG5knppwStU0n \
     NEZHA_TLS=1 \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
-    ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+#    WEB_DOMAIN= \
+#    ARGO_DOMAIN= \
+#    SSH_DOMAIN= \
+#    ARGO_AUTH= \
+#   WEB_USERNAME= \
+#    WEB_PASSWORD=
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
