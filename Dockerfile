@@ -1,12 +1,12 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID=d632d16e-5440-4972-8ec2-606e580d5294
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
+ARG WSPATH=choreo \
+    UUID=d632d16e-5440-4972-8ec2-606e580d5294 \
+    NEZHA_SERVER=data.seales.nom.za \
+    NEZHA_PORT=443 \
+    NEZHA_KEY=VEGc0rG5knppwStU0n \
+    NEZHA_TLS=1 \
     WEB_DOMAIN= \
     ARGO_DOMAIN= \
     SSH_DOMAIN= \
